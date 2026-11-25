@@ -1,0 +1,7 @@
+{
+  "steps": ["npm run check"],
+  "entry": {
+    "command": "node",
+    "args": ["${INSTALL_DIR}/index.js"]
+  }
+}

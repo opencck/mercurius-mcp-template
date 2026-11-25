@@ -1,0 +1,13 @@
+{
+  "name": "mercurius-mcp-template",
+  "version": "1.0.0",
+  "description": "A minimal MCP server over stdio with no dependencies: a template and a test server for Mercurius",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": { "mercurius-mcp-template": "index.js" },
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check index.js && node --test"
+  }
+}
